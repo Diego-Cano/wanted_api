@@ -20,5 +20,4 @@ I chose this API because I thought it was cool to work with such data. It is mea
 	Challenges Encountered:
 -API limitations: not as much documentation.
 - Data presentation: deciding how much data to show.
-![image](https://github.com/Diego-Cano/wanted_api/assets/64940291/1adda712-e90a-45ca-88df-80d765f63c68)
 
