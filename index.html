@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FBI Wanted Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6vP0k0IIqsj7/fwRljexzVct1lqoaLbHv2g/x0OmKKuvlIz7hst0I7rI3GdgMhV" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <h1>FBI Wanted Search</h1>
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="e.g. chicago, seattle, houston, losangeles">
+        <button type="submit">Search</button>
+        <button type="button" id="clearResults">Clear</button> <!-- Clear button -->
+    </form>
+    <p id="searchTips">Tip: You can search by field office name (e.g. "miami"). It works best with lowercase words and single-word-search (e.g. "newyork vs New York").</p>
+    <div id="searchResults"></div>
+    <h2>Most Wanted</h2>
+    <div id="mostWantedResults"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

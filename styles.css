@@ -1,0 +1,91 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
+    --button-clear-bg-color: #f44336;
+    --button-clear-hover-bg-color: #d32f2f;
+    --text-color: #333;
+    --box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --border-radius: 4px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+h1, h2 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+    background-color: var(--button-bg-color);
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+#clearResults {
+    background-color: var(--button-clear-bg-color);
+    color: white;
+}
+
+#clearResults:hover {
+    background-color: var(--button-clear-hover-bg-color);
+}
+
+div#searchResults, div#mostWantedResults {
+    margin-top: 20px;
+}
+
+div#searchResults div, div#mostWantedResults div {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.2s;
+}
+
+div#searchResults div:hover, div#mostWantedResults div:hover {
+    transform: scale(1.02);
+}
+
+#searchTips {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+}
