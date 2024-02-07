@@ -17,7 +17,9 @@ styles.css: The CSS file for styling the application.
 -	Internet Connection.
 2.	Write up:
 I chose this API because I thought it was cool to work with such data. It is meant to be used for research purposes, so people can be aware of the wanted people by the FBI in any desired region within the US. 
-	Challenges Encountered:
+
+
+Challenges Encountered:
 -API limitations: not as much documentation.
 - Data presentation: deciding how much data to show.
 
